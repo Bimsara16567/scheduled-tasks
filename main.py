@@ -20,7 +20,7 @@ current_day = now.day
 
 filtered_rows =  [row for row in data_row if row["month"] == current_month and row["day"] == current_day]
 
-print(filtered_rows)
+#print(filtered_rows)
 
 
 # 3. If step 2 is true, pick a random letter from letter templates and replace the [NAME] with the person's actual name from birthdays.csv
@@ -48,7 +48,7 @@ for row in filtered_rows:
             to_addrs=recipient_email,
             msg= f"Subject:Happy Birthday!\n\n{msg_body}"
         )
-    print(msg_body)
+    #print(msg_body)
 
 
 
