@@ -5,8 +5,8 @@ import datetime as dt
 from pathlib import Path
 from random import choice
 
-MY_EMAIL = "kbbn2007@gmail.com"
-MY_PASSWORD = "rtpa okkz wiid imgu"
+MY_EMAIL = os.environ.get("MY_EMAIL")
+MY_PASSWORD = os.environ.get("MY_PASSWORD")
 
 
 
